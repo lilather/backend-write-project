@@ -21,6 +21,9 @@ export class User {
     description: string;
 
     @Prop()
+    pen: string;
+
+    @Prop()
     createdOn: Date;
     
     @Prop()
