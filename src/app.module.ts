@@ -7,7 +7,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [ConfigModule.forRoot(),
-  MongooseModule.forRoot("mongodb+srv://lilather:King1234@cluster0.4s6lq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"),
+  MongooseModule.forRoot(),
   UsersModule],
   controllers: [AppController],
   providers: [AppService],
